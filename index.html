@@ -16,29 +16,29 @@
 		<header class="header">
 			<section class="header__menu menu">
 				<div class="menu__logo logo">
-					<img src="img/logo.png" alt="Логотип" class="logo__img">
+					<img src="img/logo.png" alt="Логотип компании" class="logo__img">
 					<h1 class="logo__heading">Scandy</h1>
 				</div>
 
 				<nav class="menu__navigation navigation">
 					<ul class="navigation__list">
 						<li class="navigation__item">
-							<a href="#about" class="navigation__link">О компании</a>
+							<a href="#about-id" class="navigation__link">О компании</a>
 						</li>
 						<li class="navigation__item">
-							<a href="#portfolio" class="navigation__link">Портфолио</a>
+							<a href="#portfolio-id" class="navigation__link">Портфолио</a>
 						</li>
 						<li class="navigation__item">
-							<a href="#team" class="navigation__link">Команда</a>
+							<a href="#team-id" class="navigation__link">Команда</a>
 						</li>
 						<li class="navigation__item">
-							<a href="" class="navigation__link">Как мы работаем</a>
+							<a href="#workflow-id" class="navigation__link">Как мы работаем</a>
 						</li>
 						<li class="navigation__item">
-							<a href="" class="navigation__link">Отзывы клиентов</a>
+							<a href="#reviews-id" class="navigation__link">Отзывы клиентов</a>
 						</li>
 						<li class="navigation__item">
-							<a href="" class="navigation__link">Оставить заявку</a>
+							<a href="#callback-id" class="navigation__link">Оставить заявку</a>
 						</li>
 					</ul>
 				</nav>
@@ -58,10 +58,10 @@
 
 
 		<main class="main">
-			<section class="main__about about" id="about">
+			<section class="main__about about" id="about-id">
 				<h2 class="about__heading">О нас</h2>
 				<div class="about__content">
-					<img class="about__img" src="img/table.jpeg" alt="Оформление стола">
+					<img class="about__img" src="img/table.jpeg" alt="Декор стола">
 					<div class="about__description">
 						<p class="about__text">
 						Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. 
@@ -94,8 +94,8 @@
 					</li>
 				</ul>		
 			</section>
-			<section class="portfolio" id="portfolio">
-				<h2 class="portfolio__heading">НАШИ РАБОТЫ</h2>
+			<section class="portfolio" id="portfolio-id">
+				<h2 class="portfolio__heading">Наши работы</h2>
 				<ul class="portfolio__list">
 					<li class="portfolio__card card-1">
 						<img src="img/studio.jpg" alt="Квартира-студия" class="portfolio__img">
@@ -139,21 +139,21 @@
 			</section>
 
 		
-			<section class="team" id="team">
+			<section class="team" id="team-id">
 				<h2 class="team__heading">Команда</h2>
 				<ul class="team__list">
 					<ul class="team__card">
-						<img src="img/masha.jpg" alt="" class="team__img">
+						<img src="img/masha.jpg" alt="Дизайнер Маша" class="team__img">
 						<p class="team__description">Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается <br>
 							и помогает сделать вашу квартиру красивой и уютной.</p>
 					</ul>
 					<ul class="team__card">
-						<img src="img/sasha.jpg" alt="" class="team__img">
+						<img src="img/sasha.jpg" alt="Менеджер Саша" class="team__img">
 						<p class="team__description">С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт все документы
 							и ответит на все вопросы.</p>
 					</ul>
 					<ul class="team__card">
-						<img src="img/katya.jpg" alt="" class="team__img">
+						<img src="img/katya.jpg" alt="Дизайнер Катя" class="team__img">
 						<p class="team__description">Катя тоже занимается дизайном.
 							Она всегда находит общий язык
 							с клиентами и точно знает,
@@ -161,7 +161,7 @@
 					</ul>
 				</ul>
 			</section>
-			<section class="workflow">
+			<section class="workflow" id="workflow-id">
 				<h2 class="workflow__heading">Как мы работаем</h2>
 				<ol class="workflow__list">
 					<li class="workflow__item">
@@ -184,10 +184,10 @@
 			</section>
 			
 
-			<section class="reviews">
+			<section class="reviews" id="reviews-id">
 				<h2 class="reviews__heading">Отзывы</h2>
 				<div class="reviews__slider slider">
-					<button class="slider__control">
+					<button class="slider__control" aria-label="предыдущий отзыв">
 						<svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M0.292892 8.70711C-0.0976295 8.31658 -0.0976295 7.68342 0.292892 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292892 8.70711ZM33 9H1V7H33V9Z" fill="#F5F2ED"/>
 						</svg>
@@ -201,12 +201,12 @@
 							<p class="slider__text">Анна Беловская</p>
 						</div>
 						<div class="slider__img-wrapper">
-							<img src="img/review-livingroom.jpg" alt="" class="slider__img">
-							<img src="img/review-kitchen.jpeg" alt="" class="slider__img">
+							<img src="img/review-livingroom.jpg" alt="Интерьер гостинной" class="slider__img">
+							<img src="img/review-kitchen.jpeg" alt="Интерьер кухни" class="slider__img">
 						</div>
 					</div>
 
-					<button class="slider__control">
+					<button class="slider__control" aria-label="следующий отзыв">
 						<svg width="33" height="16" viewBox="0 0 33 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M32.7071 8.70711C33.0976 8.31658 33.0976 7.68342 32.7071 7.29289L26.3431 0.928932C25.9526 0.538408 25.3195 0.538408 24.9289 0.928932C24.5384 1.31946 24.5384 1.95262 24.9289 2.34315L30.5858 8L24.9289 13.6569C24.5384 14.0474 24.5384 14.6805 24.9289 15.0711C25.3195 15.4616 25.9526 15.4616 26.3431 15.0711L32.7071 8.70711ZM0 9H32V7H0V9Z" fill="#F5F2ED"/>
 						</svg>
@@ -215,15 +215,19 @@
 				</div>
 			</section>
 
-			<section class="callback">
+			<section class="callback" id="callback-id">
 			
 					<div class="callback__form-wrapper">
 					<h2 class="callback__heading">Оставить заявку</h2>
 					<p class="callback__text">Оставьте свои контакты. Менеджер перезвонит
 						в удобное вам время и ответит на все вопросы.</p>
 					<form action="" class="callback__form">
-						<input type="text" class="callback__input callback__input--name" placeholder="Ваше имя">
-						<input type="text" class="callback__input callback__input--phone" placeholder="Введите телефон">
+						<label for="name">Ваше имя</label>
+						<input type="text" id="name" class="callback__input callback__input--name" >
+						
+						<label for="phone">Ваш телефон</label>
+						<input type="text" id="phone" class="callback__input callback__input--phone" >
+						
 						<button class="callback__submit">Оставить заявку</button>
 					</form>
 				

@@ -548,6 +548,10 @@ body {
           flex-direction: column;
 }
 
+.callback__form label {
+  margin-bottom: 20px;
+}
+
 .callback__input {
   margin-bottom: 35px;
   border: none;

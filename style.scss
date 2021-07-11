@@ -509,6 +509,9 @@ body {
   &__form {
     display: flex;
     flex-direction: column;
+    label {
+      margin-bottom: 20px;
+    }
   }
 
   &__input {
