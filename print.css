@@ -7,6 +7,7 @@
   li {
     background: transparent !important;
     color: #000 !important;
+    font-size: 12pt;
   }
   @page {
     margin: 1cm;
@@ -15,7 +16,7 @@
     display: none;
   }
   h2 {
-    font-size: 2px;
+    font-size: 18pt;
   }
   .callback__form-wrapper {
     display: none;
@@ -29,7 +30,7 @@
   }
   .promo__heading {
     max-width: 80%;
-    font-size: 1cm;
+    font-size: 26pt;
   }
   .promo__description {
     max-width: 80%;
@@ -45,7 +46,7 @@
     page-break-before: always;
   }
   .callback__map {
-    width: 15cm;
+    width: 12cm;
   }
   .callback__map-wrapper {
     margin: 2cm 8cm;

@@ -10,18 +10,21 @@
     
         background: transparent !important;
         color: #000 !important;
+        font-size: 12pt;
         
     }
     
     @page {
         margin: 1cm;
     }
-    
+
     .navigation {
       display: none;
     } 
     
-    h2 {font-size: 2px;}
+    h2 {
+        font-size: 18pt;
+    }
     
     
     
@@ -32,18 +35,26 @@
     
     
     a:not(.menu__telephone) {
+
        display: none;
+
       }
     
     .promo {
+
       margin-left: -3cm;
+
       margin-bottom: -8cm;
     
       &__heading {
         max-width: 80%;
-        font-size: 1cm;
+        font-size: 26pt;
       }
-      &__description {max-width: 80%;} 
+
+      &__description {
+          max-width: 80%;
+        } 
+
     }
     
     .about { 
@@ -52,18 +63,24 @@
     } 
     
     .portfolio {
+
       page-break-before: always;
       page-break-after: always;
+
     }
     
     .reviews {
+
       page-break-before: always;
+
     }
     
     .callback__map {
-      width: 15cm;
+
+      width: 12cm;
     
-      &-wrapper{
+      &-wrapper {
+
         margin: 2cm 8cm;
       }
     }
